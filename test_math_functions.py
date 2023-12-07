@@ -19,3 +19,11 @@ def test_calc_multiply_fail():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+
+def test_calc_pow():
+    output = m_pow(4,2)
+    assert output == 16
+
+def test_pythagorean():
+    output = pythagorean(4,0)
+    assert output = 4
